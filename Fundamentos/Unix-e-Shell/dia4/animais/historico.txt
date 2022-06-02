@@ -1,0 +1,10 @@
+    1  sudo apt install gnome-tweaks
+    2  exit
+    3  sudo ubuntu-drivers autoinstall
+    4  exit
+    5  cd 
+  530  cat > historico.txt
+  531  ls
+  532  history | head -5 | cat > historico.txt 
+  533  cat historico.txt 
+  534  history | tail -5 | cat >> historico.txt 

@@ -1,0 +1,5 @@
+./historico.txt
+./animais.txt
+./animais_fofinhos.txt
+./doideratxt.txt
+./animais_raivosos.txt

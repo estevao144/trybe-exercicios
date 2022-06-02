@@ -1,0 +1,1 @@
+cat animais.txt | sort -o animais.txt

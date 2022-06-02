@@ -1,0 +1,9 @@
+cachorro
+gato
+tigre
+cachorro
+gato
+tigre
+elefante
+leao
+rinoceronte
