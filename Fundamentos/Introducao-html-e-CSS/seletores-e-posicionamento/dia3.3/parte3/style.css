@@ -1,0 +1,19 @@
+h1, p{text-align: center;
+
+}
+li:hover{
+    background-color: green;
+    border: 5px solid yellow;
+}
+
+li:active{
+    color: white;
+}
+
+div{
+    font-family: monospace;
+
+}
+body{
+    background-color: aquamarine;
+}
