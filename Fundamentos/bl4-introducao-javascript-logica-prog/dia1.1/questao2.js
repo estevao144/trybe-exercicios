@@ -1,4 +1,4 @@
-const primeira = 4;
+const primeira = 1;
 const segunda = 2;
 
 if (primeira > segunda) {
