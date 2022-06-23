@@ -1,12 +1,21 @@
-let palavra = 'tryber';
-let letra = 'b';
-let resultado =[];
 
-for(index=0; index < palavra.length; index++){
+// declarar a palavra
+// criar uma array
+// saber separar a letra
+// guardar as letras
+// imprimir em ordem contraria
+
+
+
+let palavra = 'tryber';
+let letras = [];
+let letraTrocada = '';
+
+for(index=palavra.length-1; index >=0; index--){
     
-    if(palavra[index] === letra){
-      resultado = resultado+1;
-    }
+    letraTrocada += palavra[index] 
 
 }
-console.log(resultado);
+
+console.log(letraTrocada);
+
