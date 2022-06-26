@@ -11,11 +11,11 @@ let leitor = {
       autor: 'Daniela Kopsch',
       editora: 'Tordesilhas',
     },
-    // {
-    //   titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-    //   autor: 'JK Rowling',
-    //   editora: 'Rocco',
-    // }
+    {
+      titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+      autor: 'JK Rowling',
+      editora: 'Rocco',
+    }
   ]
  
 };
@@ -39,11 +39,11 @@ console.log(leitor.livrosFavoritos[1]);
 
 let fav = 0;
 
-for (let index = 0; index < leitor.livrosFavoritos.length; index++) {
+for (const key in leitor.livrosFavoritos) {
   
- fav = fav + 1;
+  fav = key;
+    
     
   }
 
   console.log(leitor.nome,' tem ', fav, 'livros favoritos');
-
