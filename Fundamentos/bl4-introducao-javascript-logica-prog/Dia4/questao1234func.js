@@ -58,3 +58,5 @@ function nomeMaior(nome) {
 console.log(
   nomeMaior(["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"])
 );
+
+//questão 5
