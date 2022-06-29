@@ -7,7 +7,6 @@
 //  Crie uma função que mude a cor do quadrado vermelho para branco.
 //  Crie uma função que corrija o texto da tag <h1>.
 
-//  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 //função 1
 function paragrafo() {
   let paragrafo = document.getElementsByTagName("p")[1];
@@ -40,13 +39,19 @@ corre();
 //  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 
 function contP() {
+  const paragrafo = document.getElementsByTagName("p");
 
-    const paragrafo = document.getElementsByTagName('p');
-    
-    for (const key of paragrafo) {
-        
-      key.innerHTML = key.innerHTML.toUpperCase();
-    //  paragrafo1.push(document.getElementsByTagName('p')[index]);
-    // paragrafo1.innerHTML = paragrafo.innerHTML.toUpperCase();
-}}
+  for (const key of paragrafo) {
+    key.innerHTML = key.innerHTML.toUpperCase();
+  }
+}
 contP();
+//Questão 6
+//  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+
+function imprimir() {
+  const paragrafo = document.getElementsByTagName("p");
+  for (const key of paragrafo) {
+    console.log(paragrafo[key]);
+  }
+}
