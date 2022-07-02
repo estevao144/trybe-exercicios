@@ -50,3 +50,14 @@ function contP() {
     // paragrafo1.innerHTML = paragrafo.innerHTML.toUpperCase();
 }}
 contP();
+
+// função 6
+function imprimirConsole(){
+  const textao = document.getElementsByTagName("p");
+  for (let index = 0; index < textao.length; index++) {
+    console.log(textao[index]);
+    
+  }
+
+}
+imprimirConsole();
