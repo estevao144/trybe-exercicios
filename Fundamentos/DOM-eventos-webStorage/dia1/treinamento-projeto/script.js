@@ -14,8 +14,8 @@ function botaoQ(num) {
     paleta.appendChild(linha);
   }
 }
-// botaoQuadrado.addEventListener("click", botaoQ);
+botaoQuadrado.addEventListener("click", botaoQ(5));
 
-botaoQ(5);
+//botaoQ(5);
 
-
+//questao 6: window.onload e colocar a class selected na cor preta.
