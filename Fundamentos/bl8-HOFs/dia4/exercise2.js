@@ -67,9 +67,9 @@ const expectedResult =
 const nomeAutores = books.reduce((acc, book) => {
   
    
-    return `${acc}, ${book.author.name}`;
+    return `${acc}, ${book.author.name}.`;
   
     
-}, {});
+}, []);
 
 console.log(nomeAutores);
