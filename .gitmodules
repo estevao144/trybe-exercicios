@@ -1,0 +1,3 @@
+[submodule "Trybe-Exercicios"]
+	path = Trybe-Exercicios
+	url = https://github.com/estevao144/trybe-exercicios.git
